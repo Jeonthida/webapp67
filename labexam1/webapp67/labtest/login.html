@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+
+    <style>
+        select{
+            background-color: #757575;
+            color: white;
+            margin: 35px 50px 5px 20px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>เข้าสู่ระบบ / ลงทะเบียน</h1>
+</body>
+    <div class="login">
+    <form action="login.html" method="post" target="_blank">
+        
+        <select name="select">
+            <option value="sl_login1"> เลือกประเภท</option>
+            <option value="sl_login2"> เลือกประเภท</option>
+        </select>
+
+        <div class="logininput">
+        <p>เลขประจำตัวประชาชน</p>
+        <input type="text" id="user" name="user"  size="25" placeholder="เลขประจำตัว">
+        <p>รหัสผ่าน</p>
+        <input type="password" id="password" name="pass"  size="25" placeholder="รหัสผ่าน"> <br><br>
+        </div>
+
+        <div class="loginsubmit">
+        <input type="submit" id="send" name="send" value="เข้าสู่ระบบ" class="sibt1"> <br><br> <!-- ปุ่มเข้าสู่ระบบ -->
+        <p>หากท่านยังไม่มีรหัสผู้ใช้งาน</p> <br>
+        <input type="submit" id="send" name="send" value="สมัครสมาชิก" class="sibt2"> <!-- ปุ่มสมัครสมาชิก -->
+        </div>
+    </form>
+    </div>
+</html>

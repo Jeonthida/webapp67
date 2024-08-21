@@ -1,0 +1,71 @@
+body{
+    background-image: url(pinkbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30vh;
+    margin: 0; /* ลบค่าระยะขอบ (margin) ของ body */
+    padding: 0; /* ลบค่าระยะห่างภายใน (padding) ของ body */
+}
+
+header{
+    /* margin: 0%; */
+    /* padding: 0; */
+    background-color: #81d4fa;
+    height: 40px;
+
+    /*แยกรูปกับคำ*/
+    display: flex;
+    align-items: center;
+}
+
+.hm{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+nav{
+    background-color: white;
+    height: 40px;
+    /* border: solid 1px; */
+
+    /*แยกmenuกับปุ่ม*/
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+ul.menu{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.menu li{
+    position: relative;
+    margin-right: 10px; /*ระยะห่างระหว่าง 2 ตัว*/
+}
+
+section{
+
+}
+
+footer{
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #212121; /* สีพื้นหลังของ footer */
+    padding: 10px;
+    text-align: center;
+}
+
+.sibt{
+    background-color: white;
+    color: #81d4fa;
+    border: solid 0.1px black;
+    padding: 7px;
+ }
